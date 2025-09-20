@@ -1,2 +1,5 @@
-public class RectFilter {
+import java.awt.*;
+
+public interface RectFilter {
+    boolean accept(Object s);
 }
